@@ -8,6 +8,6 @@ const testData = {
   account_balance: '15.5'
 }
 
-app.get("/", (req, res) => res.send("Hello from Render!"));
+app.get("/", (req, res) => res.send(testData));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
