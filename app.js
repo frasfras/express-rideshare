@@ -10,9 +10,19 @@ const testData = {
 const testAcct = {"items":[{"accountId":"01010OA00P207","accountName":"Jwalker","currency":"JPY","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P208","accountName":"Jwalker","currency":"USD","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P209","accountName":"Jwalker","currency":"USD","customerType":"PERSON","accountType":"SVGS","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P210","accountName":"Jwalker","currency":"GBP","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"}],
 "links":{"self":{"href":"/accounts?customerId=FFDC02&limit=10&offset=0","templated":true}}}
 
-const getBalance = {"accountId":"01010OA00P208","balances":[
-  {"balanceType":"CLOSINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-19T23:59:59.999+0530"},{"balanceType":"OPENINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T00:00:00.000+0530"},{"balanceType":"INTERIMAVAILABLE","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T23:53:53.683+0530"},
+const getBalance = {"accountId":"01010OA00P208","balances":[{"balanceType":"CLOSINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-19T23:59:59.999+0530"},{"balanceType":"OPENINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T00:00:00.000+0530"},{"balanceType":"INTERIMAVAILABLE","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T23:53:53.683+0530"},
+{"balanceType":"INTERIMBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T23:53:53.683+0530"},{"balanceType":"INTERIMCLEARED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T23:53:53.683+0530"}]}
 
+const acctDetail = {
+      "accountId": "01010OA00P208",
+      "accountName": "Jwalker",
+      "currency": "USD",
+      "customerType": "PERSON",
+      "accountType": "CACC",
+      "accountStatus": "ENABLED",
+      "accountOwnership": "SOLE",
+      "postingsRestriction": "NONE"
+  }
   
   const transfer =  "forcePostIndicator": true,
     "postingEntries": [
