@@ -1,4 +1,3 @@
-import Navigation from './Navigation';
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
@@ -71,7 +70,7 @@ const transfRef = {
 }
   
  app.get("/", (req, res) => res.send(testAcct));
-<Navigation />
+
 app.get("/listaccounts", (req,res) => res.send(testAcct));
 app.get("/getaccountbalance", (req,res) => res.send(getBalance));
 app.post("/transfer", (req,res) => res.send(transfer));
