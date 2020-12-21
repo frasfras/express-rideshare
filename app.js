@@ -74,6 +74,6 @@ const transfRef = {
 app.get("/listaccounts", (req,res) => res.send(testAcct));
 app.get("/getaccountbalance", (req,res) => res.send(getBalance));
 app.post("/transfer", (req,res) => res.send(transfer));
-app.get("/getRef", (req,res) => res.send(transferRef));
+app.get("/getRef", (req,res) => res.send(transfRef));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
