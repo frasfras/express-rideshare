@@ -24,7 +24,8 @@ const acctDetail = {
       "postingsRestriction": "NONE"
   }
   
-  const transfer =  "forcePostIndicator": true,
+  const transfer = 
+    "forcePostIndicator": true,
     "postingEntries": [
         {
             "accountId": "01010OA00P208",
