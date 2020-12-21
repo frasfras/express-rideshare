@@ -70,7 +70,7 @@ const transfRef = {
     "transactionId": "011768298d691Vzs"
 }
   
- app.get("/", (req, res) => res.send(testData));
+ app.get("/", (req, res) => res.send(testAcct));
 <Navigation />
 app.get("/listaccounts", (req,res) => res.send(testAcct));
 app.get("/getaccountbalance", (req,res) => res.send(getBalance));
