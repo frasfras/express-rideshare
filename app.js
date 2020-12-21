@@ -13,16 +13,7 @@ const testAcct = {"items":[{"accountId":"01010OA00P207","accountName":"Jwalker",
 const getBalance = {"accountId":"01010OA00P208","balances":[
   {"balanceType":"CLOSINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-19T23:59:59.999+0530"},{"balanceType":"OPENINGBOOKED","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T00:00:00.000+0530"},{"balanceType":"INTERIMAVAILABLE","amount":{"amount":"907830.31","currency":"USD"},"dateTime":"2020-12-20T23:53:53.683+0530"},
 
-  const acctDetail = {
-      "accountId": "01010OA00P208",
-      "accountName": "Jwalker",
-      "currency": "USD",
-      "customerType": "PERSON",
-      "accountType": "CACC",
-      "accountStatus": "ENABLED",
-      "accountOwnership": "SOLE",
-      "postingsRestriction": "NONE"
-  }
+  
   const transfer =  "forcePostIndicator": true,
     "postingEntries": [
         {
