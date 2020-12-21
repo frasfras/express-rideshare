@@ -1,6 +1,6 @@
 # README
 
-This is the [Express](https://expressjs.com) [rideshare](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+This is the [Express](https://expressjs.com) [rideshare] api do transfer (https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
 
 The app in this repo is deployed at [https://rideshare.onrender.com/](https://rideshare.onrender.com/).
 
