@@ -15,7 +15,7 @@ class Accounts extends React.Component {
   render() {
     return (
       <div>
-        <h1>Users</h1>
+        <h1>Accounts</h1>
         {
           this.state.accts.length == 0
             ? 'Loading ...'
